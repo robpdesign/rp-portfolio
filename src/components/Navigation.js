@@ -180,7 +180,7 @@ function Navigation(props) {
               animate="visible"
               exit="exit">
               <div className={styles.wrapper}>
-                <h5 class={styles.label}>Not Case Studies</h5>
+                <h5 class={styles.label}>General</h5>
                 <motion.ul variants={listVariants} className={styles.list}>
                   <motion.li
                     variants={item}

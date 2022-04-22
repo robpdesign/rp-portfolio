@@ -35,7 +35,7 @@ const AboutPage = () => {
   }
 
   function photoEnter(event) {
-    setCursorText("❤️");
+    setCursorText("🙌");
     setCursorVariant("contact");
   }
 
@@ -48,9 +48,9 @@ const AboutPage = () => {
       <div>
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Rob Pignone Design - About Me</title>
+          <title>Rob Pignone / Design Manager / About Me</title>
           <meta name="description" content="Rob Pignone is a design manager based in Australia" />
-          <link rel="canonical" href="https://danield.design/about/" />
+          <link rel="canonical" href="https://robp.me/about/" />
         </Helmet>
         <Navigation onLinkEnter={linkEnter} onLinkLeave={cursorLeave} />
         <Hero text="I’m a father, lover of anything with two wheels, and have always been a designer at heart." details={false} />
@@ -62,11 +62,11 @@ const AboutPage = () => {
         <motion.section className="grid">
           <div className={styles.aboutGrid}>
             <motion.div className={`${styles.video} ${styles.first}`}>
-              <video src="https://newportfolio.s3-us-west-2.amazonaws.com/daniel.mp4" className={styles.video} autoPlay muted loop />
+              <video src="https://newportfolio.s3-us-west-2.amazonaws.com/daniel.mp4" className={styles.video} autoPlay muted loop onMouseEnter={photoEnter} onMouseLeave={cursorLeave}/>
             </motion.div>
             <motion.div className={styles.wrapper}>
               <div className={styles.smallVideo}>
-                <video src="https://newportfolio.s3-us-west-2.amazonaws.com/wave.mp4" className={styles.video} autoPlay muted loop />
+                <video src="https://newportfolio.s3-us-west-2.amazonaws.com/wave.mp4" className={styles.video} autoPlay muted loop onMouseEnter={photoEnter} onMouseLeave={cursorLeave}/>
               </div>
               <div className={`${styles.smallVideo} ${styles.second}`}>
                 <video src="https://newportfolio.s3-us-west-2.amazonaws.com/franklin.mp4" className={styles.video} autoPlay muted loop onMouseEnter={photoEnter} onMouseLeave={cursorLeave}/>
@@ -76,7 +76,7 @@ const AboutPage = () => {
               <video src="https://newportfolio.s3-us-west-2.amazonaws.com/mondo.mp4" className={styles.video} autoPlay muted loop  onMouseEnter={photoEnter} onMouseLeave={cursorLeave}/>
             </motion.div>
             <motion.div className={`${styles.video} ${styles.fourth}`}>
-              <video src="https://newportfolio.s3-us-west-2.amazonaws.com/irma.mp4" className={styles.video} autoPlay muted loop onMouseEnter={photoEnter} onMouseLeave={cursorLeave} />
+              <video src="https://newportfolio.s3-us-west-2.amazonaws.com/irma.mp4" className={styles.video} autoPlay muted loop onMouseEnter={photoEnter} onMouseLeave={cursorLeave}/>
             </motion.div>
           </div>
         </motion.section>
@@ -105,42 +105,50 @@ const AboutPage = () => {
             <ul className="list">
               <li className="list-item">
                 <h6 className="h6 timeline">
-                  2020 - Current
+                  2021 - Current
                 </h6>
                 <h4 className="h4">
-                  Product Design Manager at Discord
+                  Snr Design Manager at Westpac Group
                 </h4>
               </li>
               <li className="list-item">
                 <h6 className="h6 timeline">
-                  2018 - 2020
+                  2016 - 2021
                 </h6>
                 <h4 className="h4">
-                  Product Design at Discord
+                  Human Centred Design Manager at Westpac Group
                 </h4>
               </li>
               <li className="list-item">
                 <h6 className="h6 timeline">
-                  2015 - 2018
+                  2015 - 2016
                 </h6>
                 <h4 className="h4">
-                  Design and Engineering at SteelSeries
+                  CX Design Producer at Westpac
                 </h4>
               </li>
               <li className="list-item">
                 <h6 className="h6 timeline">
-                  2014 - 2015
+                  2011 - 2015
                 </h6>
                 <h4 className="h4">
-                  Front End and UX at Palantir.net
+                  Lead Digital Producer at DDB
                 </h4>
               </li>
               <li className="list-item">
                 <h6 className="h6 timeline">
-                  2010 - 2014
+                  2010 - 2011
                 </h6>
                 <h4 className="h4">
-                  Freelance and Internships
+                  Snr Digital Producer at BMF Australia
+                </h4>
+              </li>
+              <li className="list-item">
+                <h6 className="h6 timeline">
+                  2005 - 2009
+                </h6>
+                <h4 className="h4">
+                  UI and Interaction Designer at OnQue Digital
                 </h4>
               </li>
             </ul>
