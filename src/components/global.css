@@ -6,12 +6,12 @@
   --color-black: #252323;
   --color-white: #fff;
   --color-grey: #f9f9f9;
-  --color-pink: hsla(0, 100%, 87%, 1);
-  --color-pink-dark: hsla(2, 49%, 25%, 1);
-  --color-yellow: hsla(48, 100%, 70%, 1);
-  --color-green: hsla(162, 70%, 59%, 1);
-  --color-blue: hsla(203, 75%, 48%, 1);
-  --color-purple: hsla(271, 73%, 70%, 1);
+  --color-pink: hsla(37, 13%, 80%, 1);
+  --color-pink-dark: hsla(45, 2%, 55%, 1);
+  --color-yellow: hsla(4, 77%, 61%, 1);
+  --color-green: hsla(47, 12%, 86%, 1);
+  --color-blue: hsla(6, 73%, 68%, 1);
+  --color-purple: hsla(45, 2%, 55%, 1);
   --color-teal: hsla(180, 47%, 31%, 1);
 }
 
