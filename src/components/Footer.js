@@ -24,28 +24,25 @@ function Footer(props) {
       <div className={styles.footer}>
         <div className={styles.card} onMouseEnter={mouseEnter} onMouseLeave={mouseLeave}>
           <h2 className={styles.title}>
-            Question about my work?
+            Want to connect?
           </h2>
           <h2 className={`${styles.title} ${styles.contact} `}>
-            <a href="https://www.linkedin.com/in/danielrd/">Let's chat.</a>
+            <a href="https://www.linkedin.com/in/robpignone/">Let's chat.</a>
           </h2>
         </div>
         <nav className={styles.footerLinks}>
           <div className={styles.openSource}>
-            View this portfolio on <a href="https://www.figma.com/@daniel" onMouseEnter={linkEnter} onMouseLeave={linkLeave}>Figma</a> or <a href="https://github.com/destefanis/gatsby-portfolio" onMouseEnter={linkEnter} onMouseLeave={linkLeave}>Github</a>.
+            Built with love via Open Source magic.
           </div>
           <div className={styles.socialLinks}>
-            <a href="https://twitter.com/daniel__designs" target="_blank" onMouseEnter={linkEnter} onMouseLeave={linkLeave} className={styles.socialLink}>
-              Twitter
+            <a href="https://read.cv/robp" target="_blank" onMouseEnter={linkEnter} onMouseLeave={linkLeave} className={styles.socialLink}>
+              Read.cv
             </a>
-            <a href="https://github.com/destefanis" target="_blank" onMouseEnter={linkEnter} onMouseLeave={linkLeave} className={styles.socialLink}>
-              Github
+            <a href="https://github.com/robpdesign" target="_blank" onMouseEnter={linkEnter} onMouseLeave={linkLeave} className={styles.socialLink}>
+              GitHub
             </a>
-            <a href="https://www.linkedin.com/in/danielrd/" target="_blank" onMouseEnter={linkEnter} onMouseLeave={linkLeave} className={styles.socialLink}>
+            <a href="https://www.linkedin.com/in/robpignone/" target="_blank" onMouseEnter={linkEnter} onMouseLeave={linkLeave} className={styles.socialLink}>
               LinkedIn
-            </a>
-            <a href="https://dribbble.com/danielrd/shots" target="_blank" onMouseEnter={linkEnter} onMouseLeave={linkLeave} className={styles.socialLink}>
-              Dribbble
             </a>
           </div>
         </nav>

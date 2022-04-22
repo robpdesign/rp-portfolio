@@ -43,7 +43,7 @@ function Hero(props) {
                     initial={{ opacity: 0, y: 30 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ type: 'spring', delay: 0.65, damping: 15 }}>
-                    Design Manager at Discord
+                    Currently at Westpac Group
                   </motion.h3>
                 </div>
                 <div className={styles.detail}>
@@ -58,7 +58,7 @@ function Hero(props) {
                     initial={{ opacity: 0, y: 30 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ type: 'spring', delay: 1, damping: 15 }}
-                    className={styles.label}>San Francisco -> Chicago
+                    className={styles.label}>Based in Sydney, AU
                   </motion.h3>
                 </div>
               </div>

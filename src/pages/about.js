@@ -48,13 +48,13 @@ const AboutPage = () => {
       <div>
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Daniel Destefanis Product Design - About Me</title>
-          <meta name="description" content="Daniel Destefanis is a product design manager from Chicago, working at Discord." />
+          <title>Rob Pignone Design - About Me</title>
+          <meta name="description" content="Rob Pignone is a design manager based in Australia" />
           <link rel="canonical" href="https://danield.design/about/" />
         </Helmet>
         <Navigation onLinkEnter={linkEnter} onLinkLeave={cursorLeave} />
-        <Hero text="I’m a husband, dad to three pets, and a designer who’s trying not to take himself too seriously." details={false} />
-  
+        <Hero text="I’m a father, lover of anything with two wheels, and have always been a designer at heart." details={false} />
+
         <ClientOnly>
           <Cursor cursorText={cursorText} cursorVariant={cursorVariant} />
         </ClientOnly>
@@ -82,20 +82,19 @@ const AboutPage = () => {
         </motion.section>
         <motion.section className="grid about">
           <div className="bio">
-            <h2 className="h2">I’m currently helping to lead, mentor, and grow the team at Discord as a design manager.</h2>
+            <h2 className="h2">I’m currently leading, mentoring, and building teams as a design manager in the financial sector.</h2>
           </div>
           <div className="bio-body">
             <p className="paragraph paragraph--large">
-              My love for design started when I was a teenager designing merch and cd covers for local bands.
-              I pursued my passion for design by studying
-              Interactive Art and Media at Columbia College of Chicago.
+              I’m focused on mentoring and ways of working, I work carefully and methodically.
+              I'm careful with my time and attention in order to produce quality experiences
+              and help my teams maintain maximum efficiency.
             </p>
             <p className="paragraph paragraph--large">
-              Everyday I’m motivated by the opportunity to solve real problems for people.
-              I’m always trying to improve my craft, continue learning, and help others grow as designers.
-            </p>
-            <p className="paragraph paragraph--large">
-              When I'm not designing you'll find me writing music, playing games, or at my local coffee shop.
+              In my current role, I look to drive better financial experiences for all of our
+              customers across both Consumer and Business products. Our product design team hopes
+              to help people and businesses in their everyday lives access and utilise the
+              financial services that are critical to them.
             </p>
           </div>
         </motion.section>
@@ -145,82 +144,6 @@ const AboutPage = () => {
                 </h4>
               </li>
             </ul>
-          </div>
-          <div className="previous-work">
-            <h2 className="h2">Writing</h2>
-            <ul className="list">
-              <li className="list-item">
-                <h6 className="h6 timeline">
-                  2021 - Medium
-                </h6>
-                <h4 className="h4">
-                  <a href="https://medium.com/me/stats/post/c435e2f8851b">How to set up Custom Design Linting</a>
-                </h4>
-              </li>
-              <li className="list-item">
-                <h6 className="h6 timeline">
-                  2021 - Figma File
-                </h6>
-                <h4 className="h4">
-                  <a href="https://www.figma.com/community/file/942856928187155104">Intro to Figma Plugin Api</a>
-                </h4>
-              </li>
-              <li className="list-item">
-                <h6 className="h6 timeline">
-                  2020 - Medium
-                </h6>
-                <h4 className="h4">
-                  <a href="https://blog.discord.com/building-open-source-design-tools-to-improve-discords-design-workflow-9a25c29f9143">Building Open Source Plugins</a>
-                </h4>
-              </li>
-              <li className="list-item">
-                <h6 className="h6 timeline">
-                  2018 - Medium
-                </h6>
-                <h4 className="h4">
-                  <a href="https://blog.discord.com/redesigning-the-discord-overlay-cc31c6042d6d">Redesigning the Discord Overlay</a>
-                </h4>
-              </li>
-            </ul>
-            {/* <ul className="list">
-              <li className="list-item">
-                <h6 className="h6 timeline">
-                  2017 - Design and Engineering
-                </h6>
-                <h4 className="h4">
-                  SteelSeries.com and Engine Software
-                </h4>
-              </li>
-              <li className="list-item">
-                <h6 className="h6 timeline">
-                  2017 - Design and Engineering
-                </h6>
-                <h4 className="h4">
-                  P.W. LaRue Co. Webshop
-                </h4>
-              </li>
-              <li className="list-item">
-                <h6 className="h6 timeline">
-                  2015 - Engineering and Design
-                </h6>
-                <h4 className="h4">
-                  Foreign Affairs News
-                </h4>
-              </li>
-              <li className="list-item">
-                <h6 className="h6 timeline">
-                  2015 - UX
-                </h6>
-                <h4 className="h4">
-                  Yale Art Gallery
-                </h4>
-              </li>
-              <li className="list-item">
-                <h4 className="h4">
-                  View LinkedIn ->
-                </h4>
-              </li>
-            </ul> */}
           </div>
         </motion.section>
 

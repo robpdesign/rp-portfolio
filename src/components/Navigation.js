@@ -83,24 +83,24 @@ function Navigation(props) {
   };
 
   const item = {
-    visible: { 
-      opacity: 1, 
-      x: 0 
+    visible: {
+      opacity: 1,
+      x: 0
     },
-    exit: { 
-      opacity: 0, 
-      x: 20 
+    exit: {
+      opacity: 0,
+      x: 20
     },
   }
 
   const iconVariants = {
-    visible: { 
-      opacity: 1, 
+    visible: {
+      opacity: 1,
       x: 0,
       scale: 1,
     },
-    exit: { 
-      opacity: 0, 
+    exit: {
+      opacity: 0,
       x: 0,
       scale: 0.4,
     },
@@ -128,31 +128,31 @@ function Navigation(props) {
             transition={{ type: 'spring', delay: 0 }}
           >
             <div className={styles.logo}>
-              <Link to="/" className={styles.logo} onMouseEnter={mouseEnter} onMouseLeave={mouseLeave}>Daniel Destefanis</Link>
+              <Link to="/" className={styles.logo} onMouseEnter={mouseEnter} onMouseLeave={mouseLeave}>Rob Pignone.</Link>
             </div>
             <div className={styles.navList}>
               {/* <Link to="/about" className={styles.navLink} onMouseEnter={mouseEnter} onMouseLeave={mouseLeave}><span>About</span></Link>
               <div to="/" className={styles.navLink} onClick={updateNav} onMouseEnter={mouseEnter} onMouseLeave={mouseLeave}><span>Work</span></div> */}
-              <motion.div 
+              <motion.div
                 initial="exit"
                 animate={navOpen ? "closed" : "open"}
                 variants={menuVariants}
-                className={styles.menu} 
-                onClick={updateNav} 
-                onMouseEnter={mouseEnter} 
+                className={styles.menu}
+                onClick={updateNav}
+                onMouseEnter={mouseEnter}
                 onMouseLeave={mouseLeave}>
                 <figure className={styles.figure}>
-                  <motion.img 
-                    src={menuIcon} 
-                    alt="Menu Icon" 
-                    className={styles.icon} 
+                  <motion.img
+                    src={menuIcon}
+                    alt="Menu Icon"
+                    className={styles.icon}
                     initial="visible"
                     animate={navOpen ? "exit" : "visible"}
                     variants={iconVariants}
                   />
-                  <motion.img 
-                    src={closeIcon} 
-                    alt="Close Icon" 
+                  <motion.img
+                    src={closeIcon}
+                    alt="Close Icon"
                     className={styles.icon}
                     initial="exit"
                     animate={navOpen ? "visible" : "exit"}
@@ -230,18 +230,11 @@ function Navigation(props) {
                 </motion.ul>
                 <h5 class={styles.label}>Follow</h5>
                 <motion.div className={styles.socialIcons}>
-                  <Link to="https://twitter.com/daniel__designs">
+                  <Link to="https://www.linkedin.com/in/robpignone/">
                     <img
-                      src={twitterIcon} 
-                      alt="Twitter Icon" 
-                      className={styles.social} 
-                    />
-                  </Link>
-                  <Link to="https://www.linkedin.com/in/danielrd/">
-                    <img
-                      src={linkedinIcon} 
-                      alt="LinkedIn Icon" 
-                      className={styles.social} 
+                      src={linkedinIcon}
+                      alt="LinkedIn Icon"
+                      className={styles.social}
                     />
                   </Link>
                 </motion.div>

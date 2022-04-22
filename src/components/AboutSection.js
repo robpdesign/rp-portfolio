@@ -66,7 +66,7 @@ function AboutSection() {
       <div className={styles.aboutSection}>
         <motion.div className={styles.text} variants={textVariants} initial="initial" animate={visibleState}>
           <h2 className={styles.title}>
-            Besides design, I love writing music, programming, games and taking my dog to his favorite parks.
+            Aside from design I love being active, cycling, running and climbing as well as being a Bitcoin nerd in the evenings.
           </h2>
           <Link to="/about">
             <a href="/about" className={styles.link}>

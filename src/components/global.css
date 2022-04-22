@@ -30,7 +30,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; 
+  -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
   box-sizing: border-box;
 }
@@ -164,7 +164,7 @@ img {
   .h1 {
     font-size: 48px;
   }
-  
+
   .h2 {
     /* font-size: 42px; */
     font-size: 36px;
@@ -183,11 +183,11 @@ img {
   .h5 {
     font-size: 20px;
   }
-  
+
   .h6 {
     font-size: 16px;
   }
-  
+
   .paragraph--large {
     font-size: 32px;
   }
@@ -227,15 +227,15 @@ img {
   .bio {
     grid-column: 2 / 9;
   }
-  
+
   .bio-body {
     grid-column: 2 / 8;
   }
-  
+
   .experience {
     grid-column: 2 / 6;
   }
-  
+
   .previous-work {
     grid-column: 7 / 11;
   }
@@ -271,7 +271,7 @@ img {
   left: 0;
   height: 10px;
   width: 10px;
-  background-color: rgba(30, 145, 214, 1); 
+  background-color: rgba(30, 145, 214, 1);
   border-radius: 200px;
   pointer-events: none;
   color: #fff;
