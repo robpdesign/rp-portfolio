@@ -47,7 +47,7 @@ function Cursor(props) {
     },
     contact: {
       opacity: 1,
-      backgroundColor: "rgba(255, 189, 189, 0.85)",
+      backgroundColor: "rgba(112, 153, 151, 0.85)",
       color: "#000",
       height: 64,
       width: 64,
@@ -81,7 +81,7 @@ function Cursor(props) {
       height: 10,
       width: 10,
       fontSize: "16px",
-      backgroundColor: "rgba(112, 153, 151, 0.1)",
+      backgroundColor: "rgba(112, 153, 151, 0)",
       x: "50%",
       y: "50%",
       transition: {
