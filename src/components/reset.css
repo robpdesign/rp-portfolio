@@ -335,12 +335,12 @@ textarea {
 
 
 ::-moz-selection {
-    background: #E85A4F;
+    background: #B4D6CE;
     text-shadow: none;
 }
 
 ::selection {
-    background: #E85A4F;
+    background: #B4D6CE;
     text-shadow: none;
 }
 

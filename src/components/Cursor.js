@@ -20,7 +20,7 @@ function Cursor(props) {
       height: 10,
       width: 10,
       fontSize: "16px",
-      backgroundColor: "rgba(30, 145, 214, 1)",
+      backgroundColor: "rgba(112, 153, 151, 1)",
       x: mouseXPosition - 6,
       y: mouseYPosition - 6,
       transition: {
@@ -62,7 +62,7 @@ function Cursor(props) {
     },
     link: {
       opacity: 1,
-      backgroundColor: "rgba(30, 145, 214, 0.1)",
+      backgroundColor: "rgba(112, 153, 151, 0.1)",
       color: "#000",
       height: 80,
       width: 80,
@@ -81,7 +81,7 @@ function Cursor(props) {
       height: 10,
       width: 10,
       fontSize: "16px",
-      backgroundColor: "rgba(30, 145, 214, 0)",
+      backgroundColor: "rgba(112, 153, 151, 0.1)",
       x: "50%",
       y: "50%",
       transition: {

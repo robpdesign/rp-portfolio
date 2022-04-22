@@ -112,7 +112,7 @@
 }
 
 .pink:hover {
-  background: hsla(6, 73%, 68%, 1);
+  background: hsla(167, 29%, 77%, 1);
 }
 
 .blue {
@@ -120,7 +120,7 @@
 }
 
 .blue:hover {
- background: hsla(37, 13%, 80%, 1);
+ background: hsla(226, 10%, 32%, 1);
 }
 
 .green {
@@ -128,7 +128,7 @@
 }
 
 .green:hover {
-  background: hsla(51, 2%, 55%, 1);
+  background: hsla(24, 83%, 73%, 1);
  }
 
 .purple {
@@ -136,7 +136,7 @@
 }
 
 .purple:hover {
-  background: hsla(51, 2%, 55%, 1);
+  background: hsla(249, 94%, 67%, 1);
 }
 
 .yellow {
@@ -144,7 +144,7 @@
 }
 
 .yellow:hover {
-  background: hsla(10, 77%, 61%, 1);
+  background: hsla(177, 17%, 52%, 1);
 }
 
 .teal {
@@ -152,7 +152,7 @@
 }
 
 .teal:hover {
-  background: hsla(186, 47%, 31%, 1);
+  background: hsla(180, 47%, 31%, 1);
 }
 
 .image {
