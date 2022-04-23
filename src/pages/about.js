@@ -73,7 +73,7 @@ const AboutPage = () => {
               </div>
             </motion.div>
             <motion.div className={`${styles.video} ${styles.third}`}>
-              <video src="https://rpp-personalsite.s3.ap-southeast-2.amazonaws.com/climbnew.mp4" className={styles.video} autoPlay muted loop  onMouseEnter={photoEnter} onMouseLeave={cursorLeave}/>
+              <video src="https://rpp-personalsite.s3.ap-southeast-2.amazonaws.com/climbabout.mp4" className={styles.video} autoPlay muted loop  onMouseEnter={photoEnter} onMouseLeave={cursorLeave}/>
             </motion.div>
             <motion.div className={`${styles.video} ${styles.fourth}`}>
               <video src="https://rpp-personalsite.s3.ap-southeast-2.amazonaws.com/skinew.mp4" className={styles.video} autoPlay muted loop onMouseEnter={photoEnter} onMouseLeave={cursorLeave}/>
