@@ -76,11 +76,11 @@ function AboutSection() {
         </motion.div>
         <motion.div className={styles.videos} variants={textVariants} initial="initial" animate={visibleState}>
           <div className={`${styles.videoColumn} ${styles.videoColumnFirst}`}>
-            <video src="https://rpp-personalsite.s3.ap-southeast-2.amazonaws.com/Climbnew.mp4" className={styles.video} autoPlay muted loop/>
+            <video src="https://rpp-personalsite.s3.ap-southeast-2.amazonaws.com/Climbnew.mp4" className={styles.video} autoPlay playsInline muted loop/>
           </div>
           <motion.div className={styles.videoColumn} variants={textVariants} initial="initial" animate={visibleState}>
-            <video src="https://rpp-personalsite.s3.ap-southeast-2.amazonaws.com/logo418x234.mp4" className={styles.video} autoPlay muted loop />
-            <video src="https://rpp-personalsite.s3.ap-southeast-2.amazonaws.com/pfpnew.mp4" className={styles.video} autoPlay muted loop />
+            <video src="https://rpp-personalsite.s3.ap-southeast-2.amazonaws.com/logo418x234.mp4" className={styles.video} autoPlay playsInline muted loop />
+            <video src="https://rpp-personalsite.s3.ap-southeast-2.amazonaws.com/pfpnew.mp4" className={styles.video} autoPlay playsInline muted loop />
           </motion.div>
         </motion.div>
       </div>
