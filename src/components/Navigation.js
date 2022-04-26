@@ -213,20 +213,6 @@ function Navigation(props) {
                       <span>Design Tooling</span>
                     </Link>
                   </motion.li>
-                  <motion.li
-                    variants={item}
-                  >
-                    <Link to="/destiny-medals" className={styles.link} onMouseEnter={mouseEnter} onMouseLeave={mouseLeave}  onClick={updateNav}>
-                      <span>Destiny Medals</span>
-                    </Link>
-                  </motion.li>
-                  <motion.li
-                    variants={item}
-                  >
-                    <Link to="/steelseries" className={styles.link} onMouseEnter={mouseEnter} onMouseLeave={mouseLeave} onClick={updateNav}>
-                      <span>SteelSeries</span>
-                    </Link>
-                  </motion.li>
                 </motion.ul>
                 <h5 class={styles.label}>Follow</h5>
                 <motion.div className={styles.socialIcons}>

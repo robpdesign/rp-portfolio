@@ -86,27 +86,6 @@ function WorkGrid(props) {
             onProjectEnter={projectEnter}
             onProjectLeave={projectLeave}
           />
-          <Card
-            image="https://newportfolio.s3-us-west-2.amazonaws.com/destiny-medals-image.png"
-            link="/destiny-medals"
-            imageAlt="Image of Destiny Medals Project"
-            title="Destiny Medals"
-            color="purple"
-            size="normal"
-            onProjectEnter={projectEnter}
-            onProjectLeave={projectLeave}
-          />
-          <Card
-            image="https://newportfolio.s3-us-west-2.amazonaws.com/steelseries-image.png"
-            link="/steelseries"
-            imageAlt="SteelSeries Engine UI"
-            title="SteelSeries"
-            color="yellow"
-            size="normal"
-            alignment="bottom"
-            onProjectEnter={projectEnter}
-            onProjectLeave={projectLeave}
-          />
       </div>
     </div>
   )
