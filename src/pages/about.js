@@ -62,21 +62,21 @@ const AboutPage = () => {
         <motion.section className="grid">
           <div className={styles.aboutGrid}>
             <motion.div className={`${styles.video} ${styles.first}`}>
-              <video src="https://rpp-personalsite.s3.ap-southeast-2.amazonaws.com/sketchnew.mp4" className={styles.video} muted onMouseEnter={photoEnter} onMouseLeave={cursorLeave}/>
+              <video src="https://rpp-personalsite.s3.ap-southeast-2.amazonaws.com/sketchnew.mp4" className={styles.video} autoPlay muted onMouseEnter={photoEnter} onMouseLeave={cursorLeave}/>
             </motion.div>
             <motion.div className={styles.wrapper}>
               <div className={styles.smallVideo}>
-                <video src="https://rpp-personalsite.s3.ap-southeast-2.amazonaws.com/cyclingnew.mp4" className={styles.video} muted onMouseEnter={photoEnter} onMouseLeave={cursorLeave}/>
+                <video src="https://rpp-personalsite.s3.ap-southeast-2.amazonaws.com/cyclingnew.mp4" className={styles.video} autoPlay muted onMouseEnter={photoEnter} onMouseLeave={cursorLeave}/>
               </div>
               <div className={`${styles.smallVideo} ${styles.second}`}>
-                <video src="https://rpp-personalsite.s3.ap-southeast-2.amazonaws.com/bambinew.mp4" className={styles.video} muted onMouseEnter={photoEnter} onMouseLeave={cursorLeave}/>
+                <video src="https://rpp-personalsite.s3.ap-southeast-2.amazonaws.com/bambinew.mp4" className={styles.video} autoPlay muted onMouseEnter={photoEnter} onMouseLeave={cursorLeave}/>
               </div>
             </motion.div>
             <motion.div className={`${styles.video} ${styles.third}`}>
-              <video src="https://rpp-personalsite.s3.ap-southeast-2.amazonaws.com/climbabout.mp4" className={styles.video} muted onMouseEnter={photoEnter} onMouseLeave={cursorLeave}/>
+              <video src="https://rpp-personalsite.s3.ap-southeast-2.amazonaws.com/climbabout.mp4" className={styles.video} autoPlay muted onMouseEnter={photoEnter} onMouseLeave={cursorLeave}/>
             </motion.div>
             <motion.div className={`${styles.video} ${styles.fourth}`}>
-              <video src="https://rpp-personalsite.s3.ap-southeast-2.amazonaws.com/skinew.mp4" className={styles.video} muted onMouseEnter={photoEnter} onMouseLeave={cursorLeave}/>
+              <video src="https://rpp-personalsite.s3.ap-southeast-2.amazonaws.com/skinew.mp4" className={styles.video} autoPlay muted onMouseEnter={photoEnter} onMouseLeave={cursorLeave}/>
             </motion.div>
           </div>
         </motion.section>
