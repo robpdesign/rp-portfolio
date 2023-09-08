@@ -48,8 +48,8 @@ const AboutPage = () => {
       <div>
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Rob Pignone / Design Manager / About Me</title>
-          <meta name="description" content="Rob Pignone is a design manager based in Australia" />
+          <title>Rob Pignone / Design Leader / About Me</title>
+          <meta name="description" content="Rob Pignone is a design leader and manager based in Australia" />
           <link rel="canonical" href="https://robp.me/about/" />
         </Helmet>
         <Navigation onLinkEnter={linkEnter} onLinkLeave={cursorLeave} />
@@ -82,7 +82,7 @@ const AboutPage = () => {
         </motion.section>
         <motion.section className="grid about">
           <div className="bio">
-            <h2 className="h2">I’m currently leading, mentoring, and building teams as a design manager in the financial sector.</h2>
+            <h2 className="h2">I’ve been leading, mentoring, and building out UX/UI design capability as a design manager in the financial sector.</h2>
           </div>
           <div className="bio-body">
             <p className="paragraph paragraph--large">
@@ -91,24 +91,24 @@ const AboutPage = () => {
               and help my teams maintain maximum efficiency.
             </p>
             <p className="paragraph paragraph--large">
-              In my current role, I look to drive better financial experiences for all of our
-              customers across both Consumer and Business products. Our product design team hopes
-              to help people and businesses in their everyday lives access and utilise the
-              financial services that are critical to them.
+              In my most recent lead role, I directed better financial experiences for all of
+              our customers across both Consumer and Business products. Driving our UX/UI design 
+              team to help people and businesses in their everyday lives utilise financial
+              services that are critical to them.
             </p>
           </div>
         </motion.section>
 
         <motion.section className="grid about">
           <div className="experience">
-            <h2 className="h2">Experience</h2>
+            <h2 className="h2">History & Experience</h2>
             <ul className="list">
               <li className="list-item">
                 <h6 className="h6 timeline">
-                  2021 - Current
+                  2021 - 2023
                 </h6>
                 <h4 className="h4">
-                  Snr Design Manager at Westpac Group
+                  Experience (Product) Design Lead at Westpac Group
                 </h4>
               </li>
               <li className="list-item">
@@ -116,7 +116,7 @@ const AboutPage = () => {
                   2016 - 2021
                 </h6>
                 <h4 className="h4">
-                  Human Centred Design Manager at Westpac Group
+                  Human Centred Design Principal at Westpac Group
                 </h4>
               </li>
               <li className="list-item">
@@ -124,7 +124,7 @@ const AboutPage = () => {
                   2015 - 2016
                 </h6>
                 <h4 className="h4">
-                  CX Design Producer at Westpac
+                  CX DesignOps Manager at Westpac Group
                 </h4>
               </li>
               <li className="list-item">
@@ -132,7 +132,7 @@ const AboutPage = () => {
                   2011 - 2015
                 </h6>
                 <h4 className="h4">
-                  Lead Digital Producer at DDB
+                  Lead Digital Producer at DDB Group (Tribal)
                 </h4>
               </li>
               <li className="list-item">
@@ -140,7 +140,7 @@ const AboutPage = () => {
                   2010 - 2011
                 </h6>
                 <h4 className="h4">
-                  Snr Digital Producer at BMF Australia
+                  Digital Producer at BMF Australia
                 </h4>
               </li>
               <li className="list-item">
@@ -148,7 +148,15 @@ const AboutPage = () => {
                   2005 - 2009
                 </h6>
                 <h4 className="h4">
-                  UI and Interaction Designer at OnQue Digital
+                  UI and Web Designer at OnQue Digital
+                </h4>
+              </li>
+              <li className="list-item">
+                <h6 className="h6 timeline">
+                  Pre-2005
+                </h6>
+                <h4 className="h4">
+                  Web & Brand Designer freelance roles
                 </h4>
               </li>
             </ul>

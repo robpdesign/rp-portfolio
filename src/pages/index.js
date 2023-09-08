@@ -66,12 +66,12 @@ const IndexPage = () => {
     <main>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Rob Pignone / Design Manager / Home</title>
-        <meta name="description" content="The personal site of Rob Pignone, an experience design manager from Australia." />
+        <title>Rob Pignone / Design Leader and Manager / Home</title>
+        <meta name="description" content="The personal site of Rob Pignone, an experience design leader and design manager from Australia." />
         <link rel="canonical" href="https://robp.me" />
       </Helmet>
       <Navigation onLinkEnter={linkEnter} onLinkLeave={cursorLeave}/>
-      <Hero text="I'm a Design Manager dedicated to crafting polished native and web experiences." details={true}/>
+      <Hero text="An experience design leader and manager dedicated to crafting polished native and web experiences." details={true}/>
       <ClientOnly>
         <Cursor cursorText={cursorText} cursorVariant={cursorVariant} />
         <WorkGrid onProjectEnter={projectEnter} onProjectLeave={cursorLeave} />
