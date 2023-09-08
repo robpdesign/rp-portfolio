@@ -82,7 +82,8 @@ const AboutPage = () => {
         </motion.section>
         <motion.section className="grid about">
           <div className="bio">
-            <h2 className="h2">I've been leading, mentoring, and building out UX/UI design capability as a design manager in the financial sector.</h2>
+            <h2 className="h2">I've been directing, mentoring, and building out 
+            human centred design capability as a leader in the financial sector.</h2>
           </div>
           <div className="bio-body">
             <p className="paragraph paragraph--large">
@@ -104,7 +105,7 @@ const AboutPage = () => {
                 </h6>
                 <h4 className="h4">
                   Experience (Product) Design Lead 
-                  at Westpac Group
+                  at Westpac
                 </h4>
               </li>
               <li className="list-item">
@@ -113,7 +114,7 @@ const AboutPage = () => {
                 </h6>
                 <h4 className="h4">
                   Human Centred Design Principal 
-                  at Westpac Group
+                  at Westpac
                 </h4>
               </li>
               <li className="list-item">
@@ -122,7 +123,7 @@ const AboutPage = () => {
                 </h6>
                 <h4 className="h4">
                   CX DesignOps Manager 
-                  at Westpac Group
+                  at Westpac
                 </h4>
               </li>
               <li className="list-item">
