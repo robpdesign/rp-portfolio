@@ -171,14 +171,14 @@ const AboutPage = () => {
           </div>
           <div className="grid work-grid">
             <Card
-              image="https://newportfolio.s3.us-west-2.amazonaws.com/server-video-final/server-video-tile-imagee.png"
-              imageAlt="Mockup of Discord's video chat feature with a person using it"
-              link="/server-video"
-              color="pink"
-              title="Server Video"
+              image="https://rpp-personalsite.s3.ap-southeast-2.amazonaws.com/biz-invoice.png"
+              link="/wbc-business-invoice"
+              imageAlt="Biz Invoice Screens"
+              color="blue"
+              title="Westpac Biz Invoice"
               size="normal"
               onProjectEnter={projectEnter}
-              onProjectLeave={cursorLeave}
+              onProjectLeave={projectLeave}
             />
             <Card
               image="https://newportfolio.s3-us-west-2.amazonaws.com/discord-onboarding-image.png"
