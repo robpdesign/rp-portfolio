@@ -78,8 +78,6 @@ function AboutSection() {
           <div className={`${styles.videoColumn} ${styles.videoColumnFirst}`}>
             <video src="https://rpp-personalsite.s3.ap-southeast-2.amazonaws.com/Bobbin.mp4" className={styles.video} autoPlay playsInline muted loop/>
           </div>
-          <motion.div className={styles.videoColumn} variants={textVariants} initial="initial" animate={visibleState}>
-            <video src="https://rpp-personalsite.s3.ap-southeast-2.amazonaws.com/Profile.mp4" className={styles.video} autoPlay playsInline muted loop />
             <video src="https://rpp-personalsite.s3.ap-southeast-2.amazonaws.com/PersonalLogo.mp4" className={styles.video} autoPlay playsInline muted loop />
           </motion.div>
         </motion.div>
