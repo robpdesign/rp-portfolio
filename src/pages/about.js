@@ -86,15 +86,10 @@ const AboutPage = () => {
           </div>
           <div className="bio-body">
             <p className="paragraph paragraph--large">
-              I’m focused on mentoring and ways of working, I work carefully and methodically.
-              I'm careful with my time and attention in order to produce quality experiences
-              and help my teams maintain maximum efficiency.
+              I’m focused on mentoring and ways of working, I work carefully and methodically. I'm careful with my time and attention in order to produce quality experiences and help my teams maintain maximum efficiency.
             </p>
             <p className="paragraph paragraph--large">
-              In my most recent lead role, I directed better financial experiences for all of
-              our customers across both Consumer and Business products. Driving our UX/UI design 
-              team to help people and businesses in their everyday lives utilise financial
-              services that are critical to them.
+              In my most recent lead role, I directed better financial experiences for all of our customers across both Consumer and Business products. Driving our UX/UI design team to help people and businesses in their everyday lives utilise financial services that are critical to them.
             </p>
           </div>
         </motion.section>
@@ -108,7 +103,8 @@ const AboutPage = () => {
                   2021 - 2023
                 </h6>
                 <h4 className="h4">
-                  Experience (Product) Design Lead at Westpac Group
+                  Experience (Product) Design Lead 
+                  at Westpac Group
                 </h4>
               </li>
               <li className="list-item">
@@ -116,7 +112,8 @@ const AboutPage = () => {
                   2016 - 2021
                 </h6>
                 <h4 className="h4">
-                  Human Centred Design Principal at Westpac Group
+                  Human Centred Design Principal 
+                  at Westpac Group
                 </h4>
               </li>
               <li className="list-item">
@@ -124,7 +121,8 @@ const AboutPage = () => {
                   2015 - 2016
                 </h6>
                 <h4 className="h4">
-                  CX DesignOps Manager at Westpac Group
+                  CX DesignOps Manager 
+                  at Westpac Group
                 </h4>
               </li>
               <li className="list-item">
@@ -132,7 +130,8 @@ const AboutPage = () => {
                   2011 - 2015
                 </h6>
                 <h4 className="h4">
-                  Lead Digital Producer at DDB Group (Tribal)
+                  Lead Digital Producer 
+                  at DDB Group (Tribal)
                 </h4>
               </li>
               <li className="list-item">
@@ -140,7 +139,8 @@ const AboutPage = () => {
                   2010 - 2011
                 </h6>
                 <h4 className="h4">
-                  Digital Producer at BMF Australia
+                  Digital Producer 
+                  at BMF Australia
                 </h4>
               </li>
               <li className="list-item">
@@ -148,7 +148,8 @@ const AboutPage = () => {
                   2005 - 2009
                 </h6>
                 <h4 className="h4">
-                  UI and Web Designer at OnQue Digital
+                  UI and Web Designer 
+                  at OnQue Digital
                 </h4>
               </li>
               <li className="list-item">
