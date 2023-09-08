@@ -7,7 +7,7 @@
   --color-white: #fff;
   --color-grey: #f9f9f9;
   --color-pink: hsla(164, 70%, 90%, 1);
-  --color-pink-dark: hsla(177, 20%, 61%, 1);
+  --color-pink-dark: rgb(189, 224, 216);
   --color-yellow: hsla(177, 20%, 61%, 1);
   --color-green: hsla(171, 53%, 36%, 1);
   --color-blue: hsla(194, 91%, 91%, 1);
@@ -271,7 +271,7 @@ img {
   left: 0;
   height: 10px;
   width: 10px;
-  background-color: rgba(180, 214, 206, 1);
+  background-color: rgb(194, 240, 229);
   border-radius: 200px;
   pointer-events: none;
   color: #fff;

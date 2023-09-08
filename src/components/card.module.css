@@ -112,7 +112,7 @@
 }
 
 .pink:hover {
-  background: hsla(167, 29%, 77%, 1);
+  background: rgb(189, 224, 216);
 }
 
 .blue {
@@ -120,7 +120,7 @@
 }
 
 .blue:hover {
- background: hsla(226, 10%, 32%, 1);
+ background: rgb(177, 212, 223);
 }
 
 .green {
@@ -128,7 +128,7 @@
 }
 
 .green:hover {
-  background: hsla(24, 83%, 73%, 1);
+  background: rgb(26, 95, 85);
  }
 
 .purple {
