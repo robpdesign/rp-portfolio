@@ -62,31 +62,31 @@ const AboutPage = () => {
         <motion.section className="grid">
           <div className={styles.aboutGrid}>
             <motion.div className={`${styles.video} ${styles.first}`}>
-              <video src="https://rpp-personalsite.s3.ap-southeast-2.amazonaws.com/sketchnew.mp4" className={styles.video} autoPlay playsInline muted onMouseEnter={photoEnter} onMouseLeave={cursorLeave}/>
+              <video src="https://rpp-personalsite.s3.ap-southeast-2.amazonaws.com/Pyrmont.mp4" className={styles.video} autoPlay playsInline muted onMouseEnter={photoEnter} onMouseLeave={cursorLeave}/>
             </motion.div>
             <motion.div className={styles.wrapper}>
               <div className={styles.smallVideo}>
-                <video src="https://rpp-personalsite.s3.ap-southeast-2.amazonaws.com/cyclingnew.mp4" className={styles.video} autoPlay playsInline muted onMouseEnter={photoEnter} onMouseLeave={cursorLeave}/>
+                <video src="https://rpp-personalsite.s3.ap-southeast-2.amazonaws.com/mountains.mp4" className={styles.video} autoPlay playsInline muted onMouseEnter={photoEnter} onMouseLeave={cursorLeave}/>
               </div>
               <div className={`${styles.smallVideo} ${styles.second}`}>
-                <video src="https://rpp-personalsite.s3.ap-southeast-2.amazonaws.com/bambinew.mp4" className={styles.video} autoPlay playsInline muted onMouseEnter={photoEnter} onMouseLeave={cursorLeave}/>
+                <video src="https://rpp-personalsite.s3.ap-southeast-2.amazonaws.com/Bam.mp4" className={styles.video} autoPlay playsInline muted onMouseEnter={photoEnter} onMouseLeave={cursorLeave}/>
               </div>
             </motion.div>
             <motion.div className={`${styles.video} ${styles.third}`}>
-              <video src="https://rpp-personalsite.s3.ap-southeast-2.amazonaws.com/climbabout.mp4" className={styles.video} autoPlay playsInline muted onMouseEnter={photoEnter} onMouseLeave={cursorLeave}/>
+              <video src="https://rpp-personalsite.s3.ap-southeast-2.amazonaws.com/Boulder.mp4" className={styles.video} autoPlay playsInline muted onMouseEnter={photoEnter} onMouseLeave={cursorLeave}/>
             </motion.div>
             <motion.div className={`${styles.video} ${styles.fourth}`}>
-              <video src="https://rpp-personalsite.s3.ap-southeast-2.amazonaws.com/skinew.mp4" className={styles.video} autoPlay playsInline muted onMouseEnter={photoEnter} onMouseLeave={cursorLeave}/>
+              <video src="https://rpp-personalsite.s3.ap-southeast-2.amazonaws.com/Palmy.mp4" className={styles.video} autoPlay playsInline muted onMouseEnter={photoEnter} onMouseLeave={cursorLeave}/>
             </motion.div>
           </div>
         </motion.section>
         <motion.section className="grid about">
           <div className="bio">
-            <h2 className="h2">I’ve been leading, mentoring, and building out UX/UI design capability as a design manager in the financial sector.</h2>
+            <h2 className="h2">I've been leading, mentoring, and building out UX/UI design capability as a design manager in the financial sector.</h2>
           </div>
           <div className="bio-body">
             <p className="paragraph paragraph--large">
-              I’m focused on mentoring and ways of working, I work carefully and methodically. I'm careful with my time and attention in order to produce quality experiences and help my teams maintain maximum efficiency.
+              I'm focused on mentoring and ways of working, I work carefully and methodically. I'm careful with my time and attention in order to produce quality experiences and help my teams maintain maximum efficiency.
             </p>
             <p className="paragraph paragraph--large">
               In my most recent lead role, I directed better financial experiences for all of our customers across both Consumer and Business products. Driving our UX/UI design team to help people and businesses in their everyday lives utilise financial services that are critical to them.
