@@ -32,12 +32,9 @@ function Footer(props) {
         </div>
         <nav className={styles.footerLinks}>
           <div className={styles.openSource}>
-            Built with love via Open Source magic.
+          / Hand crafted via Open source
           </div>
           <div className={styles.socialLinks}>
-            <a href="https://read.cv/robp" target="_blank" onMouseEnter={linkEnter} onMouseLeave={linkLeave} className={styles.socialLink}>
-              Read.cv
-            </a>
             <a href="https://github.com/robpdesign" target="_blank" onMouseEnter={linkEnter} onMouseLeave={linkLeave} className={styles.socialLink}>
               GitHub
             </a>

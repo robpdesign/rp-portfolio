@@ -66,7 +66,7 @@ function AboutSection() {
       <div className={styles.aboutSection}>
         <motion.div className={styles.text} variants={textVariants} initial="initial" animate={visibleState}>
           <h2 className={styles.title}>
-            Aside from design, I tend to be always on the move, cycling, running and climbing as well as being an investment nerd in the evenings.
+          Aside from design, I tend to be always on the move; cycling, running and climbing as well as being a keen investor in the evenings.
           </h2>
           <Link to="/about">
             <a href="/about" className={styles.link}>
@@ -76,11 +76,11 @@ function AboutSection() {
         </motion.div>
         <motion.div className={styles.videos} variants={textVariants} initial="initial" animate={visibleState}>
           <div className={`${styles.videoColumn} ${styles.videoColumnFirst}`}>
-            <video src="https://rpp-personalsite.s3.ap-southeast-2.amazonaws.com/Climbnew.mp4" className={styles.video} autoPlay playsInline muted loop/>
+            <video src="https://rpp-personalsite.s3.ap-southeast-2.amazonaws.com/Bobbin.mp4" className={styles.video} autoPlay playsInline muted loop/>
           </div>
           <motion.div className={styles.videoColumn} variants={textVariants} initial="initial" animate={visibleState}>
-            <video src="https://rpp-personalsite.s3.ap-southeast-2.amazonaws.com/logo418x234.mp4" className={styles.video} autoPlay playsInline muted loop />
-            <video src="https://rpp-personalsite.s3.ap-southeast-2.amazonaws.com/pfpnew.mp4" className={styles.video} autoPlay playsInline muted loop />
+            <video src="https://rpp-personalsite.s3.ap-southeast-2.amazonaws.com/Profile.mp4" className={styles.video} autoPlay playsInline muted loop />
+            <video src="https://rpp-personalsite.s3.ap-southeast-2.amazonaws.com/PersonalLogo.mp4" className={styles.video} autoPlay playsInline muted loop />
           </motion.div>
         </motion.div>
       </div>

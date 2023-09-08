@@ -43,7 +43,7 @@ function Hero(props) {
                     initial={{ opacity: 0, y: 30 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ type: 'spring', delay: 0.65, damping: 15 }}>
-                    Currently at Westpac Group
+                    20 years of design expertise
                   </motion.h3>
                 </div>
                 <div className={styles.detail}>
