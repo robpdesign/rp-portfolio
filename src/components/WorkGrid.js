@@ -55,32 +55,32 @@ function WorkGrid(props) {
       <div className="work-grid">
           <FeaturedCard
             // image="https://newportfolio.s3-us-west-2.amazonaws.com/server-video-image.png"
-            image="https://newportfolio.s3.us-west-2.amazonaws.com/server-video-final/featured-tile.png"
-            imageAlt="Discord server video ui"
-            link="/server-video"
+            image="https://rpp-personalsite.s3.ap-southeast-2.amazonaws.com/featured-tile.png"
+            imageAlt="CRM UI Mobile"
+            link="/wbc-one-crm"
             color="pink"
-            title="Server Video"
-            key="Server Video"
+            title="Westpac One CRM"
+            key="Westpac One CRM"
             size="featured"
             onProjectEnter={projectEnter}
             onProjectLeave={projectLeave}
           />
           <Card
             image="https://newportfolio.s3-us-west-2.amazonaws.com/discord-onboarding-image.png"
-            link="/discord-growth"
-            imageAlt="Phone displaying Discord Templates UI"
+            link="/wbc-business-invoice"
+            imageAlt="Biz Invoice Screens"
             color="blue"
-            title="Discord Growth"
+            title="Westpac Biz Invoice"
             size="normal"
             onProjectEnter={projectEnter}
             onProjectLeave={projectLeave}
           />
           <Card
             image="https://newportfolio.s3-us-west-2.amazonaws.com/design-tooling-image.png"
-            link="/design-tooling"
-            imageAlt="UI of Design Tooling Plugins in Figma"
+            link="/banker-templates-system"
+            imageAlt="UI of Banker Template Library"
             color="green"
-            title="Design Tooling"
+            title="Westpac Banker UI Kit"
             size="normal"
             alignment="bottom"
             onProjectEnter={projectEnter}
