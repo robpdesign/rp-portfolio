@@ -28,7 +28,7 @@
 }
 
 .contact a {
-  color: var(--color-blue);
+  color: var(--color-green);
 }
 
 .contact a:hover {
@@ -36,7 +36,7 @@
 }
 
 .contact {
-  color: var(--color-blue);
+  color: var(--color-green);
 }
 
 .icon {
