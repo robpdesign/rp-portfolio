@@ -54,7 +54,6 @@ function WorkGrid(props) {
     <div className="grid">
       <div className="work-grid">
           <FeaturedCard
-            // image="https://newportfolio.s3-us-west-2.amazonaws.com/server-video-image.png"
             image="https://rpp-personalsite.s3.ap-southeast-2.amazonaws.com/featured-tile.png"
             imageAlt="CRM UI Mobile"
             link="/wbc-one-crm"
@@ -66,7 +65,7 @@ function WorkGrid(props) {
             onProjectLeave={projectLeave}
           />
           <Card
-            image="https://newportfolio.s3-us-west-2.amazonaws.com/discord-onboarding-image.png"
+            image="https://rpp-personalsite.s3.ap-southeast-2.amazonaws.com/biz-invoice.png"
             link="/wbc-business-invoice"
             imageAlt="Biz Invoice Screens"
             color="blue"
